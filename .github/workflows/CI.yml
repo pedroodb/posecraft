@@ -17,9 +17,7 @@ jobs:
         tools: ["black", "bandit", "pylint", "flake8"]
         include:
           - tools: pytest
-            args: -m not integration and not gpu
-          - tools: pytest
-            args: -m integration
+            args: ""
 
     steps:
       - uses: actions/checkout@v4
