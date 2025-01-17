@@ -3,11 +3,11 @@ requires = ["flit_core >=2,<4"]
 build-backend = "flit_core.buildapi"
 
 [project]
-name =  "py-project-toml"
+name =  "posecraft"
 authors = [
-    {name = "Daniel Ciborowski", email = "dciborow@microsoft.com"},
+    {name = "Pedro Dal Bianco", email = "dalbianco.pedro@gmail.com"},
 ]
-description = "Sample Python Project for creating a new Python Module"
+description = "Library for manipulating pose keypoints"
 readme = "README.md"
 classifiers = [
     "Development Status :: 3 - Alpha",
@@ -47,9 +47,9 @@ test = [
 ]
 
 [project.urls]
-Documentation = "https://github.com/microsoft/python-package-template/tree/main#readme"
-Source = "https://github.com/microsoft/python-package-template"
-Tracker = "https://github.com/microsoft/python-package-template/issues"
+Documentation = "https://github.com/microsoft/posecraft/tree/main#readme"
+Source = "https://github.com/microsoft/posecraft"
+Tracker = "https://github.com/microsoft/posecraft/issues"
 
 [tool.flit.module]
 name = "posecraft"
