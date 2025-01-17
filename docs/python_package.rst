@@ -1,21 +1,13 @@
-python\_package package
+posecraft package
 =======================
-
-Subpackages
------------
-
-.. toctree::
-   :maxdepth: 4
-
-   python_package.hello_world
 
 Submodules
 ----------
 
-python\_package.setup module
+posecraft.setup module
 ----------------------------
 
-.. automodule:: python_package.setup
+.. automodule:: posecraft.setup
    :members:
    :undoc-members:
    :show-inheritance:
@@ -23,7 +15,7 @@ python\_package.setup module
 Module contents
 ---------------
 
-.. automodule:: python_package
+.. automodule:: posecraft
    :members:
    :undoc-members:
    :show-inheritance:
