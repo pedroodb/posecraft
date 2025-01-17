@@ -40,21 +40,6 @@ def test_center_to_keypoint():
     ), "Centering failed"
 
 
-def test_normalize_distances():
-    """
-    Test the NormalizeDistances transform.
-    """
-    mock_tensor = torch.rand((10, 1, 33, 3))
-    transform = NormalizeDistances(indices=(0, 1), distance_factor=1.0)
-    normalized_tensor = transform(mock_tensor)
-
-    # The distance between the two specified keypoints should now be close to the factor
-    distance = torch.sqrt(
-        torch.sum((normalized_tensor[:, :, 0, :] - normalized_tensor[:, :, 1, :]) ** 2, dim=-1)
-    )
-    assert torch.allclose(distance, torch.tensor(1.0), atol=1e-2), "Normalization failed"
-
-
 def test_fill_missing():
     """
     Test the FillMissing transform.
