@@ -33,7 +33,7 @@ class CenterToKeypoint(torch.nn.Module):
 
 class NormalizeDistances(torch.nn.Module):
     def __init__(
-        self, indices: tuple[int, int] = (11, 12), distance_factor: float = 0.2
+        self, indices: "tuple[int, int]" = (11, 12), distance_factor: float = 0.2
     ):
         """
         Args:
