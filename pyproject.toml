@@ -35,7 +35,7 @@ test = [
     "flake8",
     "flake8-pyproject",
     "matplotlib==3.4.2",
-    "numpy==1.20.3",
+    "numpy==2.2.0",
     "pre-commit==4.0.1",
     "pylint==3.3.3",
     "pylint_junit",
