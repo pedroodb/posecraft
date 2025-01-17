@@ -28,14 +28,22 @@
 
 ---
 
-## Installation
+## Installation (From PyPI)
+
+You can install the package directly from [PyPI](https://pypi.org/project/posecraft/):
+
+```bash
+pip install posecraft
+```
+
+## Installation (From Source)
 
 1. Clone this repository or add `posecraft` to your Python environment.
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-3. (Optional) For development and documentation, navigate to the docs folder and install additional requirements.
+3.	(Optional) For development and documentation, navigate to the docs/ folder and install additional requirements.
 
 ## Usage
 
@@ -65,7 +73,9 @@ You can also chain other available transforms (e.g., FillMissing, FilterLandmark
 
 ## Documentation
 
-Comprehensive documentation can be found under the [`docs/`](docs/) folder. This includes:
+Full documentation can be found at https://pedroodb.github.io/posecraft/.
+
+Also, if installed locally, comprehensive documentation can be found under the [`docs/`](docs/) folder. This includes:
 
 - Guides on setting up a development container (`.devcontainer`).
 - Instructions for running tests (`tests/`) and CI workflows.
