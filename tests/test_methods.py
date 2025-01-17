@@ -35,9 +35,7 @@ def test_center_to_keypoint():
     centered_tensor = transform(mock_tensor)
 
     # The center keypoint should now be approximately 0.5 in each dimension
-    assert torch.allclose(
-        centered_tensor[:, :, 0, :], torch.tensor([0.5, 0.5, 0.5]), atol=1e-2
-    ), "Centering failed"
+    assert torch.allclose(centered_tensor[:, :, 0, :], torch.tensor([0.5, 0.5, 0.5]), atol=1e-2), "Centering failed"
 
 
 def test_fill_missing():
@@ -68,3 +66,11 @@ def test_chain_transforms():
 
     # Perform basic sanity checks on the transformed tensor
     assert transformed_tensor.shape == mock_tensor.shape, "Shape mismatch after transforms"
+
+
+def test_int_hello():
+    """
+    This test is marked implicitly as an integration test because the name contains "_init_"
+    https://docs.pytest.org/en/6.2.x/example/markers.html#automatically-adding-markers-based-on-test-names
+    """
+    print("Dummy integration test")
