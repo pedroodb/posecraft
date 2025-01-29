@@ -37,7 +37,7 @@ test = [
     "matplotlib==3.8.3",
     "numpy==1.26.4",
     "pre-commit==4.1.0",
-    "pylint==3.3.3",
+    "pylint==3.3.4",
     "pylint_junit",
     "pytest-mock<3.14.1",
     "pytest-cov==6.0.0",
