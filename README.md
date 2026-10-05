@@ -2,6 +2,8 @@
 
 **posecraft** is a Python package designed to load, manipulate, and transform pose data. It uses PyTorch to handle pose tensors, allowing you to perform operations such as centering, normalizing distances, filling missing values, and more.
 
+**Status:** last updated January 2025, the date of the latest PyPI release; no active development.
+
 ---
 
 ## Features
