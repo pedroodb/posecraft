@@ -75,9 +75,7 @@ You can also chain other available transforms (e.g., FillMissing, FilterLandmark
 
 ## Documentation
 
-Full documentation can be found at https://pedroodb.github.io/posecraft/.
-
-Also, if installed locally, comprehensive documentation can be found under the [`docs/`](docs/) folder. This includes:
+The documentation sources are in the [`docs/`](docs/) folder. They include:
 
 - Guides on setting up a development container (`.devcontainer`).
 - Instructions for running tests (`tests/`) and CI workflows.
